@@ -6,6 +6,10 @@
 <title>Online Conversion - Date/Time Difference</title>
 <meta name="DESCRIPTION" content="Calcualte the difference in days, hours, minutes, and seconds between two dates.">
 <meta name="KEYWORDS" content="day, date, difference, hour, minute, second, between">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
 <script language="javascript" type="text/javascript">
@@ -81,7 +85,10 @@ function calculate (form)
 			<td><input type="text" name="date2" /></td>
 		</tr>
 		<tr>
-			<td colspan="2" align="center"><input type="button" name="submit" value="Calculate" onclick="calculate(this.form)" /></td>
+			<td colspan="2" align="center">
+				<input type="button" class="btn btn-success" name="submit" value="Calculate" onclick="calculate(this.form)" />
+				
+			</td>
 		</tr>
 		<tr>
 			<td>Result</td>
